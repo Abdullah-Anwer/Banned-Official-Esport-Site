@@ -1,3 +1,4 @@
+
 {
   "name": "banned-official",
   "version": "1.0.0",
@@ -7,7 +8,9 @@
     "start": "node server.js",
     "dev": "node --watch server.js"
   },
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "compression": "^1.7.4",
     "dotenv": "^16.4.5",

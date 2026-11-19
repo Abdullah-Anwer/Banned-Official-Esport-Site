@@ -211,3 +211,5 @@ mongoose.connect(MONGODB_URI)
   .then(seed)
   .then(() => app.listen(PORT, () => console.log('Server running at http://localhost:' + PORT)))
   .catch(e => { console.error('Could not connect to MongoDB:', e.message); process.exit(1); });
+
+module.exports = app;
